@@ -1,0 +1,19 @@
+﻿Build started 2019/1/31 下午 05:43:36.
+     1>Project "C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"NI Headers_vc120" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Taurus7UTestProgram.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Taurus7UTestProgramDlg.cpp
+         Taurus7UTestProgramDlg.cpp
+     1>Taurus7UTestProgramDlg.cpp(134): warning C4101: 'nList' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Release\Taurus7UTestProgram.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"NI Library_vc120" visa32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Release\Taurus7UTestProgram.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Release\Taurus7UTestProgram.lib" /MACHINE:X86 /SAFESEH Release\Taurus7UTestProgram.res
+         Release\stdafx.obj
+         Release\Taurus7UTestProgram.obj
+         Release\Taurus7UTestProgramDlg.obj
+         Generating code
+         Finished generating code
+         Taurus7UTestProgram.vcxproj -> C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Release\Taurus7UTestProgram.exe
+     1>Done Building Project "C:\Users\chen_warren-cy\Desktop\Taurus7UTestProgram_GPIB_update\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94
