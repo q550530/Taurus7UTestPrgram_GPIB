@@ -133,7 +133,7 @@ void CTaurus7UTestProgramDlg::OnBnClickedButtonConfig()
 		status = viOpenDefaultRM(&defaultRM);
 		if (status == VI_SUCCESS)
 		{
-			status = viFindRsrc(defaultRM,"GPIB0::17::INSTR", &fList, &retCount, rsrcName);
+			status = viFindRsrc(defaultRM,"GPIB0::22::INSTR", &fList, &retCount, rsrcName);
 			if (status == VI_SUCCESS)
 			{
 				int nList;
@@ -202,7 +202,24 @@ void CTaurus7UTestProgramDlg::ShowMsg(CString strMSg)
 
 void CTaurus7UTestProgramDlg::OnBnClickedBtnExecmd()//Drict GPIB
 {
-	CString strVi;
+	for (int i = 0; i < 5;i++)
+	{
+
+		VisaWrite(_T(":ROUT:CLOS (@10101)"));
+		::Sleep(45);
+		VisaWrite(_T(":ROUT:CLOS (@10202)"));
+		::Sleep(45);
+		VisaWrite(_T(":ROUT:CLOS (@10303)"));
+		::Sleep(45);
+		VisaWrite(_T(":ROUT:CLOS (@10404)"));
+		::Sleep(1000);
+		VisaWrite(_T(":ROUT:OPEN:CARD ALL"));
+		::Sleep(200);
+	}
+	
+	VisaWrite(_T(":ROUT:OPEN:CARD ALL"));
+	::Sleep(200);
+	/*CString strVi;
 	CString strRe;
 
 	
@@ -275,7 +292,7 @@ void CTaurus7UTestProgramDlg::OnBnClickedBtnExecmd()//Drict GPIB
 	VisaWrite(_T("CL2,3,4"));
 	VisaWrite(_T("ERRX? 0"));
 	OnBnClickedread();
-	//VisaRead(strRe);
+	//VisaRead(strRe);*/
 	
 
 

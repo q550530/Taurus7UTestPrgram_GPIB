@@ -1,18 +1,17 @@
-﻿Build started 10/5/2021 4:00:52 PM.
-     1>Project "C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/17/2021 2:16:07 PM.
+     1>Project "C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"NI Headers_vc120" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Taurus7UTestProgram_GPIB.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Taurus7UTestProgramDlg.cpp
          Taurus7UTestProgramDlg.cpp
-     1>c:\users\hsiao_tyrael\desktop\rfds_tyrael\taurus7utestprogram_gpib_update\taurus7utestprogram\taurus7utestprogramdlg.cpp(139): warning C4101: 'nList' : unreferenced local variable
-     1>c:\users\hsiao_tyrael\desktop\rfds_tyrael\taurus7utestprogram_gpib_update\taurus7utestprogram\taurus7utestprogramdlg.cpp(220): warning C4101: 'totlaTime' : unreferenced local variable
+     1>c:\users\hsiao_tyrael\desktop\rfds_tyrael\devlope\taurus7utestprgram_gpib\taurus7utestprogram\taurus7utestprogramdlg.cpp(139): warning C4101: 'nList' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Debug\Taurus7UTestProgram_GPIB.exe" /INCREMENTAL /NOLOGO /LIBPATH:"NI Library_vc120" visa32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Debug\Taurus7UTestProgram_GPIB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Debug\Taurus7UTestProgram_GPIB.lib" /MACHINE:X86 Debug\Taurus7UTestProgram.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Debug\Taurus7UTestProgram_GPIB.exe" /INCREMENTAL /NOLOGO /LIBPATH:"NI Library_vc120" visa32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Debug\Taurus7UTestProgram_GPIB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Debug\Taurus7UTestProgram_GPIB.lib" /MACHINE:X86 Debug\Taurus7UTestProgram.res
          Debug\stdafx.obj
          Debug\Taurus7UTestProgram.obj
          Debug\Taurus7UTestProgramDlg.obj
-         Taurus7UTestProgram.vcxproj -> C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Debug\Taurus7UTestProgram_GPIB.exe
-     1>Done Building Project "C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Taurus7UTestProgram_GPIB_update\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" (Build target(s)).
+         Taurus7UTestProgram.vcxproj -> C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Debug\Taurus7UTestProgram_GPIB.exe
+     1>Done Building Project "C:\Users\hsiao_tyrael\Desktop\RFDS_Tyrael\Devlope\Taurus7UTestPrgram_GPIB\Taurus7UTestProgram\Taurus7UTestProgram.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.25
+Time Elapsed 00:00:01.14
